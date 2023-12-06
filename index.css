@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.score {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+}
+
+.team-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.container h3 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.score, .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                           
+}
+
+.score {
+    color: #F94F6D;
+    font-size: 90px;
+    padding-top: 20px;
+    border-radius: 4px;
+}
+
+.button {
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border: solid 3px #9AABD8;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    border: solid 3px #d1d9f0;
+    color: #d1d9f0;
+    cursor: pointer;
+}
+
+.reset-button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #1B244A;
+    background-color: #9AABD8;
+    font-weight: bold;
+}
+
+.reset-button:hover {
+    background-color: #d1d9f0;
+    cursor: pointer;
+    box-shadow: 0px 0px 40px black;
+}
